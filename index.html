@@ -8,9 +8,14 @@
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
     <link rel="stylesheet" href="assets/css/all.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
+    <div id="sale-banner" class="alert alert-warning text-center">
+        <strong class="d-none d-sm-inline">Sale currently on!</strong> 50% off <span id="extra-sales-caption">our
+            12-month subscription</span>! <a href="">Click for details</a>
+    </div>
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <a href="/" class="navbar-brand">Whiskey Drop</a>
 
@@ -32,17 +37,8 @@
             <a href="/login">Sign in / Sign up!</a>
         </div>
     </nav>
-    <article class="container mt-3">
+    <article class="container-fluid mt-3">
         <!-- Callout -->
-        <div class="row">
-            <div class="col-12">
-                <div class="alert alert-warning d-none d-sm-block">
-                    <strong>Sale is currently on!</strong> 50% off our 12-month subscription! <a href="">Click for more
-                        details</a>
-                </div>
-            </div>
-        </div>
-
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
@@ -53,7 +49,8 @@
                         <strong><mark>First
                                 one is free!</mark></strong>
                     </p>
-                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signupModal">Sign up !</button>
+                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signupModal">Sign up
+                        !</button>
                     <p class="text-muted"><small>Must be over 18 to participate, please drink responsibly.</small></p>
                 </section>
             </div>
@@ -72,35 +69,33 @@
 
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <div class="media">
+                    <div id="quote-container">
                         <div class="d-none d-sm-block">
-                            <img src="assets/images/girl-image.png" alt="image of young woman"
-                                class="rounded-circle mr-3" height="100">
+                            <img src="assets/images/girl-image.png" alt="image of young woman" class="rounded-circle"
+                                height="100">
                         </div>
-                        <div class="media-body">
-                            <blockquote class="blockquote">
-                                <p>I've been introduced to more than 10 great international whiskeys I never knew about.
-                                </p>
-                                <p>- Jane Doe</p>
-                            </blockquote>
-                        </div>
+                        <br>
+                        <blockquote class="blockquote">
+                            <p>I've been introduced to more than 10 great international whiskeys I never knew about.
+                            </p>
+                            <p>- Jane Doe</p>
+                        </blockquote>
                     </div>
                 </div>
 
                 <div class="col-12 col-md-6">
-                    <div class="media">
+                    <div id="quote-container">
                         <div class="d-none d-sm-block">
-                            <img src="assets/images/guy-image.png" alt="image of young man" class="rounded-circle mr-3"
+                            <img src="assets/images/guy-image.png" alt="image of young man" class="rounded-circle"
                                 height="100">
                         </div>
-                        <div class="media-body">
-                            <blockquote class="blockquote">
-                                <p>I haven't been sober for months!</p>
-                                <p>- Jane Doe</p>
-                            </blockquote>
-                        </div>
+                        <blockquote class="blockquote">
+                            <p>I haven't been sober for months!</p>
+                            <p>- Jane Doe</p>
+                        </blockquote>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
         <!-- /.quotes -->
@@ -215,8 +210,10 @@
                     <form>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>
@@ -224,7 +221,8 @@
                         </div>
                         <div class="form-group">
                             <label for="repeatPassword">Repeat Password</label>
-                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                            <input type="password" class="form-control" id="repeatPassword"
+                                placeholder="Repeat Password">
                         </div>
                         <button type="submit" class="btn btn-success">Submit</button>
                     </form>

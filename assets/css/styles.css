@@ -1,0 +1,15 @@
+@media screen and (max-width:424px){
+    #extra-sales-caption {
+        display:none;
+    }
+}
+
+#sale-banner {
+    margin: 0px;
+    padding: 9px;
+}
+
+.quotes div:not(:first-child) div {
+    text-align: center;
+    padding: 5px 50px;
+}
