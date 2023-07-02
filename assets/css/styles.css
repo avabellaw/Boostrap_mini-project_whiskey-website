@@ -1,6 +1,6 @@
-@media screen and (max-width:424px){
+@media screen and (max-width:424px) {
     #extra-sales-caption {
-        display:none;
+        display: none;
     }
 }
 
@@ -14,7 +14,7 @@
     text-align: left;
     padding: 5px;
     justify-content: space-between;
-    height:100%;
+    height: 100%;
     margin: 0 15%;
     position: relative;
 }
@@ -31,3 +31,17 @@
 section .row:first-child h2 {
     text-align: center;
 }
+
+.callout-container {
+    height: 100vh;
+
+    background: url(../images/whiskey-cover.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.quotes-container {}
+
+.features-container {}
