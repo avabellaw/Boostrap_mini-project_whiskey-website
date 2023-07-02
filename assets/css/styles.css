@@ -10,8 +10,24 @@
 }
 
 #quote-container {
-    display: flex;
+    display: block;
     text-align: left;
-    padding: 5px 50px;
-    height: 100%;
+    padding: 5px;
+    justify-content: space-between;
+    height:100%;
+    margin: 0 15%;
+    position: relative;
+}
+
+#quote-container img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    max-height: 35%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+section .row:first-child h2 {
+    text-align: center;
 }
