@@ -9,7 +9,9 @@
     padding: 9px;
 }
 
-.quotes div:not(:first-child) div {
-    text-align: center;
+#quote-container {
+    display: flex;
+    text-align: left;
     padding: 5px 50px;
+    height: 100%;
 }
