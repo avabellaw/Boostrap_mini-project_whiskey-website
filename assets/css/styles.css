@@ -75,11 +75,6 @@ section .row:first-child h2 {
     color: rgb(208, 207, 207);
 }
 
-.jumbotron button {
-    width:150px;
-    margin:auto;
-}
-
 /* Block dividers */
 
 .block-divider {
@@ -90,8 +85,24 @@ section .row:first-child h2 {
         width: 90%;
 }
 
-.block-divider_orange {
+.block-divider--orange {
     background-color: #ffa5005c;
+}
+
+.btn--cta {
+    border-radius: 20px;
+    padding: 5px 1px;
+    width: 120px;
+    margin:auto;
+}
+
+.btn--orange {
+    background-color: #df4706ba;
+    border:0;
+}
+
+.btn--orange:hover {
+    background-color: #ff4d00cf;
 }
 
 .opaque-overlay {
