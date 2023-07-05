@@ -61,10 +61,6 @@ section .row:first-child h2 {
     background-color: rgba(255,255,255,.7);
 }
 
-.container-wrapper--orange .btn {
-    background-color: rgba(145, 78, 7, 0.759);
-}
-
 .site-wide-alert {
     border-radius: 0;
     margin-bottom: 0;
@@ -201,4 +197,10 @@ mark {
     font-size: 2rem;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.container-wrapper--orange a.btn {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #b13a07;
+    font-weight: bolder;
 }
