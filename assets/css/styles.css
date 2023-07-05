@@ -57,6 +57,10 @@ section .row:first-child h2 {
     color:white;
 }
 
+.container-wrapper--orange .block-divider {
+    background-color: rgba(255,255,255,.7);
+}
+
 .container-wrapper--orange .btn {
     background-color: rgba(145, 78, 7, 0.759);
 }
@@ -187,4 +191,14 @@ mark {
     background-image: linear-gradient(transparent, transparent 40%, var(--highlight-colour) 30%, var(--highlight-colour) 70%, transparent 70%, transparent);
     color: white;
     font-size:1.07em;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature i {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
