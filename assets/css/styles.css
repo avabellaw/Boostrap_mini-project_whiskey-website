@@ -73,9 +73,9 @@ section .row:first-child h2 {
 }
 
 /* Content containers */
-.container {
-    margin-top: 60px;
-    margin-bottom: 60px;
+.container-wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 /* Navbar styling */
@@ -135,6 +135,10 @@ section .row:first-child h2 {
 }
 
 /* Block dividers */
+
+hr {
+    margin:0;
+}
 
 .block-divider {
         margin-bottom: 1rem;
